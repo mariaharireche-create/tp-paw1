@@ -1,0 +1,144 @@
+
+ /* 🌱 Style général (Mobile First) */
+/*body {
+  font-family: Arial, sans-serif;
+  background-color: wheat;
+  padding: 5px;
+  margin: 0;
+}
+
+/* NAVBAR */
+/*nav {
+  background-color: #333;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* mobile = vertical */
+/*}
+nav ul li {
+  border-bottom: 1px solid #444;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  margin: 15px auto;
+  font-size: 14px;
+}
+th {
+  background-color: white;
+  padding: 10px;
+}
+td {
+  background-color: peachpuff;
+  padding: 10px;
+}
+th, td {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+/* FORMULAIRE */
+form {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+}
+label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+
+/* 📱 Tablettes */
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav ul li {
+    border: none;
+  }
+  nav ul li a {
+    padding: 12px 20px;
+  }
+  form {
+    width: 80%;
+  }
+}
+*/
+/* 💻 Ordinateurs 
+@media (min-width: 992px) {
+  body {
+    padding: 30px;
+  }
+  table {
+    width: 80%;
+    font-size: 16px;
+  }
+  form {
+    width: 60%;
+  }
+}*/
+
+ /*body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.4; }
+        nav { background-color: #333; width: 100%; }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; /* Stacked on mobile */ }
+       /* nav li { width: 100%; }
+        nav a { display: block; color: white; text-align: center; padding: 15px; text-decoration: none; font-size: 1rem; border-bottom: 1px solid #555; }
+        nav a:hover, nav a:active { background-color: #ddd; color: black; } /* Touch feedback */
+       /* main { padding: 20px; }
+
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.4; }
+nav { background-color: #333; width: 100%; position: relative; } /* Fixed if needed: position: fixed; top: 0; */
+/*nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; /* Always stacked on phone */ }
+/*nav li { width: 100%; border-bottom: 1px solid #444; }
+nav a { display: block; color: white; text-align: left; padding: 16px 20px; /* Larger touch area */ text-decoration: none; font-size: 16px; transition: background 0.2s; }
+/*nav a:active { background-color: #555; } /* Tap feedback instead of hover */
+/*main { padding: 15px; margin-top: 0; } /* No top margin if nav fixed */
+/*h1 { font-size: 1.25rem; margin: 0 0 15px 0; color: #333; }*/
+
+
