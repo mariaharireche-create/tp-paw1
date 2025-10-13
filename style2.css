@@ -2,13 +2,13 @@ body {
   background-color: whitesmoke;
   margin: 0;
   padding: 0;
-  color: brown;
+  color: black;
 }
 
 
 h1 {
   text-align: center;
-  background-color: #007bff;
+  background-color: darkolivegreen;
   color: white;
   padding: 15px 0;
   margin: 0;
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: brown;
+  color: black;
   margin-top: 20px;
 }
 
@@ -26,20 +26,21 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #b8dafe;
+  background-color: rgb(108, 126, 108);
   padding: 10px;
 }
 nav a {
-  color: brown;
+  color:  black;
   text-decoration: none;
   margin: 5px 15px;
-  font-weight: 600;
+  font-weight: bold;
+  position: relative;
 }
 
 
 nav a:hover {
   text-decoration: underline;
-  color: #004085;
+  color: black;
 }
 table {
   width: 90%;
@@ -58,12 +59,12 @@ table th, table td {
 
 
 table th {
-  background-color: #007bff;
+  background-color: darkolivegreen;
   color: white;
 }
 form {
   max-width: 400px;
-  background-color: #d0e3f7;
+  background-color: rgb(108, 126, 108);
   margin: 40px auto;
   padding: 20px;
   border-radius: 12px;
@@ -74,20 +75,21 @@ form label {
   display: block;
   font-weight: 600;
   margin-top: 10px;
-  color: #333;
+  color: rgb(108, 126, 108);
+  font-family: 'Times New Roman', Times, serif;
 }
 form input {
   width: 90%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 1px solid #85a182;
+  border-radius: 15px;
 }
 
 form button {
   margin-top: 20px;
   padding: 12px;
-  background-color: #287ed4;
+  background-color:darkolivegreen;
   color: white;
   border: none;
   border-radius: 6px;
@@ -95,7 +97,7 @@ form button {
   cursor: pointer;
 }
 form button:hover {
-  background-color: #0056b3;
+  background-color: rgb(133, 176, 133);
 }
 
 @media (max-width: 600px) {

@@ -1,14 +1,19 @@
 
- /* 🌱 Style général (Mobile First) */
-/*body {
+ 
+body {
   font-family: Arial, sans-serif;
-  background-color: wheat;
+  background-color: rgb(231, 228, 222);
   padding: 5px;
   margin: 0;
 }
+h1{
+  text-align: center;
+  background-color: #000;
+  color: whitesmoke;
+}
 
 /* NAVBAR */
-/*nav {
+nav {
   background-color: #333;
 }
 nav ul {
@@ -17,7 +22,7 @@ nav ul {
   margin: 0;
   display: flex;
   flex-direction: column; /* mobile = vertical */
-/*}
+}
 nav ul li {
   border-bottom: 1px solid #444;
 }
@@ -85,60 +90,30 @@ button {
   border: none;
   padding: 10px;
   border-radius: 4px;
-  width: 100%;
-  margin-top: 15px;
+  margin-top: 20px;
   cursor: pointer;
+  align-items: center;
 }
 button:hover {
   background-color: #555;
 }
 
-/* 📱 Tablettes */
-@media (min-width: 600px) {
-  nav ul {
-    flex-direction: row;
-    justify-content: center;
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
   }
-  nav ul li {
-    border: none;
-  }
-  nav ul li a {
-    padding: 12px 20px;
+
+  table th, table td {
+    font-size: 14px;
+    padding: 8px;
   }
   form {
-    width: 80%;
+    width: 95%;
+    padding: 15px;
+  }
+
+  form input, form button {
+    width: 100%;
   }
 }
-*/
-/* 💻 Ordinateurs 
-@media (min-width: 992px) {
-  body {
-    padding: 30px;
-  }
-  table {
-    width: 80%;
-    font-size: 16px;
-  }
-  form {
-    width: 60%;
-  }
-}*/
-
- /*body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.4; }
-        nav { background-color: #333; width: 100%; }
-        nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; /* Stacked on mobile */ }
-       /* nav li { width: 100%; }
-        nav a { display: block; color: white; text-align: center; padding: 15px; text-decoration: none; font-size: 1rem; border-bottom: 1px solid #555; }
-        nav a:hover, nav a:active { background-color: #ddd; color: black; } /* Touch feedback */
-       /* main { padding: 20px; }
-
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.4; }
-nav { background-color: #333; width: 100%; position: relative; } /* Fixed if needed: position: fixed; top: 0; */
-/*nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; /* Always stacked on phone */ }
-/*nav li { width: 100%; border-bottom: 1px solid #444; }
-nav a { display: block; color: white; text-align: left; padding: 16px 20px; /* Larger touch area */ text-decoration: none; font-size: 16px; transition: background 0.2s; }
-/*nav a:active { background-color: #555; } /* Tap feedback instead of hover */
-/*main { padding: 15px; margin-top: 0; } /* No top margin if nav fixed */
-/*h1 { font-size: 1.25rem; margin: 0 0 15px 0; color: #333; }*/
-
-
