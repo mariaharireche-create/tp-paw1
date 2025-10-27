@@ -9,7 +9,7 @@
       "type": "msedge",
       "request": "launch",
       "name": "Launch Edge with exo1.html",
-      "file": "${workspaceFolder}/exo1.html"
+      "file": "${workspaceFolder}/exo2.html"
     }
   ]
 }
